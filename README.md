@@ -9,3 +9,4 @@ A new Flutter project.
 ## DEV:
 ### 1. Copiar el .env.template y reenombrarlo a .env
 ### 2. Cambar las variables de entorno y reemplazar o agregar el API de TheMovie DB (https://www.themoviedb.org/settings/api)
+### 3.
