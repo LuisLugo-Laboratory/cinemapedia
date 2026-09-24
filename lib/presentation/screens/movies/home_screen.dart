@@ -15,15 +15,13 @@ class HomeScreen extends StatelessWidget {
     
     return Scaffold(
       body: _HomeView(),
-      //bottomNavigationBar: Placeholder(fullback),
+      bottomNavigationBar: CustomBottomNavigation(),
     );
   }
 }
 
 class _HomeView extends ConsumerStatefulWidget {
-  const _HomeView({
-    super.key,
-  });
+  const _HomeView();
 
   @override
   _HomeViewState createState() => _HomeViewState();
