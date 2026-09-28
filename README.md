@@ -5,7 +5,7 @@ A new Flutter project.
 ### information about the movies, the actors, and everithing you need to know about it.
 ### Testing, editing file from local to github
 ### Testing, editing file from github to local
-### Banners Disign
+### Banners Design
 
 ## DEV:
 ### 1. Copiar el .env.template y reenombrarlo a .env
