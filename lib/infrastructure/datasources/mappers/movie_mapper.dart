@@ -32,7 +32,8 @@ class MovieMapper {
     ? 'https://image.tmdb.org/t/p/w500${moviedb.backdropPath}'
     : 'https://i.stack.imgur.com/GNhxO.png',
     
-    genreIds: moviedb.genres.map((e) => e.id.toString()).toList(),
+    //genreIds: moviedb.genres.map((e) => e.id.toString()).toList(),
+    genreIds: moviedb.genres.map((e) => e.name ).toList(),
     id: moviedb.id,
     originalLanguage: moviedb.originalLanguage,
     originalTitle: moviedb.originalTitle,
